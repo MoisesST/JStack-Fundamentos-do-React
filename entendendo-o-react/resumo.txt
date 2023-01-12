@@ -1,0 +1,41 @@
+Library vs Framework
+
+Library: conjunto de funcionalidades, que resolvem apenas um tipo de problema;
+
+Ex:
+date-fns -> manipulção de datas;
+axios -> requisições http.
+
+Framework: conjunto de funcionalidades, que resolvem vários tipos de problemas;
+
+Ex:
+Angular -> criação de interface, requisições http, rotas e etc;
+Vue.js  -> criar servidores, desenvolver jogos, criar apps e etc.
+
+O que é React?
+
+Biblioteca para construção de interfaces (UI's).
+
+Mas e o resto?
+
+O React trabalha em conjunto com outras librarys e frameworks;
+
+Ex:
+Reach Router, Styled Components e etc.
+
+O React é multiplataforma
+
+Com ele é possível desenvolver para desktop, web e mobile. Tudo isso usando a mesma tecnologia;
+
+Por que isso acontece?
+
+Pois a biblioteca em si não diz onde a interface será renderizada;
+
+Para isso utilizamos os pacotes:
+ReactDOM -> para aplicações web;
+React Native -> para apps mobile, Android e IOS;
+React Native Windows -> para apps Windows, tablets, computadores e XBOX.
+
+Se utilizamos as seguintes ferramentas:
+Lib React + ReactDOM + React Router = SPA (single page application);
+SPA -> aplicações modernas que ao navegar nela, não ocorre reload na página, apenas mudanças em determinados pontos. Isso faz com que a página fique mais rápida e dinâmica.
